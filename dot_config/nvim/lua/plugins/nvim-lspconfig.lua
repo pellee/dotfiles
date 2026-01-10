@@ -1,3 +1,5 @@
+return {}
+--[[
 return {
   "neovim/nvim-lspconfig",
   config = function()
@@ -16,9 +18,10 @@ return {
     lsp_conf.gopls.setup({
       capabilites = capabilites,
     })
+  end,
 
     vim.keymap.set("n", "<leader>i", vim.lsp.buf.hover, {})
     vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
     vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
-  end,
 }
+  ]]

@@ -4,7 +4,7 @@ return {
 	config = function()
 		require("lualine").setup({
 			options = {
-				theme = "catppuccin",
+				theme = "kanagawa",
 				refresh = {
 					statusline = 100,
 					tabline = 100,

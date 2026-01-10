@@ -48,6 +48,6 @@ return {
   priority = 1000,
   opts = options,
   init = function()
-    vim.cmd.colorscheme("catppuccin")
+    -- vim.cmd.colorscheme("catppuccin")
   end,
 }
