@@ -1,3 +1,4 @@
+local capabilites = require("cmp_nvim_lsp").default_capabilities()
 return {
   -- Command and arguments to start the server.
   cmd = { "lua-language-server" },
@@ -22,4 +23,5 @@ return {
       signatureHelp = { enabled = true },
     },
   },
+  capabilites = capabilites,
 }
