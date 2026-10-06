@@ -1,0 +1,25 @@
+# DEFAULT BROWSER
+browser zen-browser
+
+refresh-on-startup yes
+
+# BINDS
+ bind h everywhere prev
+ bind l everywhere next
+bind j everywhere down
+bind k everywhere up
+bind SPACE everywhere open
+
+# COLORS
+color background          white   black
+color listnormal          white black dim
+color listnormal_unread   magenta black bold
+color listfocus           yellow black
+color listfocus_unread    yellow  black
+color title               green black bold
+color info                green black bold
+color hint-key            yellow  black bold
+color hint-keys-delimiter white   black 
+color hint-separator      white   black bold
+color hint-description    white   black 
+color article             white   black
