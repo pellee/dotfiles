@@ -1,7 +1,7 @@
 # DEFAULT BROWSER
 browser zen-browser
 
-refresh-on-startup yes
+# refresh-on-startup yes
 
 # BINDS
  bind h everywhere prev
